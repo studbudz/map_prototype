@@ -6,7 +6,9 @@ import 'package:location/location.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:latlong2/latlong.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
