@@ -7,6 +7,7 @@ import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:latlong2/latlong.dart';
 
 void main() {
+  print('Starting the app...');
   runApp(MyApp());
 }
 
