@@ -24,7 +24,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final LatLng _defaultLocation = LatLng(1.2878, 103.8666); // ✅ Default Location
+  final LatLng _defaultLocation = LatLng(1.2878, 103.8666);
 
   @override
   Widget build(BuildContext context) {
@@ -36,17 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       body: FlutterMap(
-        options: MapOptions(
-          initialCameraPosition: CameraPosition(
-            center: _defaultLocation, // ✅ Corrected center
-            zoom: 11, // ✅ Corrected zoom
-          ),
-        ),
+        mapController: MapController(),
+        options: MapOptions(),
         children: [
           TileLayer(
-            urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-            subdomains: ['a', 'b', 'c'],
-            userAgentPackageName: 'dev.fleaflet.flutter_map.example', // ✅ Corrected
+            urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+            userAgentPackageName: 'dev.fleaflet.flutter_map.example',
+            // Plenty of other options available!
           ),
         ],
       ),

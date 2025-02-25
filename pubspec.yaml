@@ -32,13 +32,13 @@ dependencies:
     sdk: flutter
 
   # Mapping & Location Dependencies
-  flutter_map: ^0.14.0  # OpenStreetMap package
-  latlong2: ^0.8.1  # Correctly placed
-  geolocator: ^9.0.2  # GPS & geolocation services
-  location: ^4.4.0  # Alternative location plugin
+  flutter_map: ^8.1.0  # OpenStreetMap package
+  latlong2: ^0.9.1  # Correctly placed
+  geolocator: ^13.0.2  # GPS & geolocation services
+  location: ^8.0.0  # Alternative location plugin
 
   # WebSocket for real-time updates
-  web_socket_channel: ^2.1.0  
+  web_socket_channel: ^3.0.2  
 
   # UI & Icon Support
   cupertino_icons: ^1.0.8
