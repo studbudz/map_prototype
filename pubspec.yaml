@@ -36,6 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   latlng: ^2.0.7
   geolocator: ^9.0.2
+  flutter_map: ^0.14.0  # OpenStreetMap package
+  location: ^4.4.0      # For getting location data
+  web_socket_channel: ^2.1.0  # WebSocket package
 
 dev_dependencies:
   flutter_test:
