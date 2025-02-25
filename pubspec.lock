@@ -78,14 +78,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_lints:
-    dependency: "direct dev"
-    description:
-      name: flutter_lints
-      sha256: "5398f14efa795ffb7a33e9b6a08798b26a180edac4ad7db3f231e40f82ce11e1"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.0.0"
   flutter_map:
     dependency: "direct main"
     description:
@@ -184,16 +176,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.7"
-  latlng:
-    dependency: "direct main"
-    description:
-      name: latlng
-      sha256: a324c80073ef959d67ead88b57a717b7b87f182da1b980ccae92b3555ac82712
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.7"
   latlong2:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: latlong2
       sha256: "08ef7282ba9f76e8495e49e2dc4d653015ac929dce5f92b375a415d30b407ea0"
@@ -224,14 +208,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
-  lints:
-    dependency: transitive
-    description:
-      name: lints
-      sha256: c35bb79562d980e9a453fc715854e1ed39e24e7d0297a880ef54e17f9874a9d7
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.1.1"
   lists:
     dependency: transitive
     description:
