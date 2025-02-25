@@ -32,7 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     markers = createRandomMarkers(
-      100,
+      1,
     ); // Change the number to create more or fewer markers
   }
 
