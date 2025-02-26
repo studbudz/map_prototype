@@ -80,21 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
             userAgentPackageName: 'dev.fleaflet.flutter_map.example',
             // Plenty of other options available!
           ),
-          MarkerLayer(
-            markers: [
-              Marker(
-                point: LatLng(30, 40),
-                width: 80,
-                height: 80,
-                child: const Icon(
-                  Icons.location_on,
-                  size: 40.0,
-                  color: Colors.red,
-                ),
-              ),
-              ...markers,
-            ],
-          ),
+          MarkerLayer(markers: [...markers]),
         ],
       ),
     );
